@@ -1,0 +1,27 @@
+.gameoption {
+    background-color: #3c0870;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.gameoption:hover {
+    opacity: 1
+}
+
+.gameoptions #gameoption p {
+    margin-bottom: 0;
+}
+
+.correct {
+    background-color: #0bfc03;
+    font-weight: bold;
+}
+
+.wrong {
+    background-color: #3c0e70;
+    opacity: 0.4;
+}
